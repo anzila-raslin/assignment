@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+    <form action="" enctype="multipart/form-data">
+        <fieldset>
+            <h3 align="center"> Lets us know we can improve</h3>
+            <table align="center" cellpadding="16" cellspacing="6">
+                <tr>
+                    <td align="right"><label for="name">*Name:</label></td>
+                    <td align="left"> <input type="text" id="name" name="name"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="email">*Email:</label></td>
+                    <td align="left"> <input type="email" id="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="Age">*Age:</label></td>
+                    <td align="left"> <input type="number" id="Age" name="Age"></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label></td>
+                    <td> <input type="file" id="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="">Which option best describes your current role?</label></td>
+                    <td align="left">
+                        <select name="Student" id="">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="professor">Professor</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="">How likely is that you would recommend this program to a
+                            friend?</label></td>
+                    <td align="left">
+                        <input type="radio" id="definitly" name="recommend" value="definitly">
+                        <label for="">Definitly</label><br>
+                        <input type="radio" id="maybe" name="recommend" value="maybe">
+                        <label for="">Maybe</label><br>
+                        <input type="radio" id="not sure" name="recommend" value="not sure">
+                        <label for="">Not sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="">What did you like most</label></td>
+                    <td align="left">
+                        <select name="" id="">
+                            <option value="">Select an option</option>
+                            <option value="">Lecturer</option>
+                            <option value="">Project</option>
+                            <option value="">Assignment</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="">Things that should be improved in the future<br>
+                            (Check all that apply)</label></td>
+                    <td align="left"><input type="checkbox" id="frontend" name="frontend" value="frondend">
+                        <label for="frontend">Frond-End-Project</label><br>
+                        <input type="checkbox" id="backend" name="backend" value="backend">
+                        <label for="backend">Back-End-Project</label><br>
+                        <input type="checkbox" id="data" name="data" value="data">
+                        <label for="data">Data visualization</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="">Any Comments or Suggestions?</label></td>
+                    <td><textarea name="" id="" cols="40" rows="3"></textarea></td>
+                </tr>
+                <tr align="right">
+
+                    <td><button>Submit</button></td>
+                </tr>
+
+
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
